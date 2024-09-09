@@ -1,0 +1,18 @@
+.App {
+  color: white;
+  text-align: center;
+  background-color: rgb(24, 24, 26);
+}
+
+.header a{
+  height: 100px;
+  line-height: 100px;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.header a:hover {
+  color: gold;
+  text-decoration: underline;
+}

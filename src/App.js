@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import styles from './App.module.css';
+import UploadForm from './components/UploadForm/UploadForm';
+import GalleryRow from './components/GalleryRow/GalleryRow';
 
 function App() {
+
+  const [files, setFiles] = useState([]); // state to hold uploaded files
+
+  const handleNewUpload = (file) => {
+    setFiles([...files, file]);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.App}>
+      <div className={styles.header}>
+        <a target='_blank' href='https://www.instagram.com/ascendusc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='>Ascend Marketing Material</a>
+      </div>
+      <UploadForm handleNewUpload={handleNewUpload}/>
+      <GalleryRow files={files}/>
     </div>
   );
 }
