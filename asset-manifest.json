@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ascend_marketing/static/css/main.e237c775.css",
+    "main.js": "/ascend_marketing/static/js/main.f306a8aa.js",
+    "static/js/453.32becc55.chunk.js": "/ascend_marketing/static/js/453.32becc55.chunk.js",
+    "index.html": "/ascend_marketing/index.html",
+    "main.e237c775.css.map": "/ascend_marketing/static/css/main.e237c775.css.map",
+    "main.f306a8aa.js.map": "/ascend_marketing/static/js/main.f306a8aa.js.map",
+    "453.32becc55.chunk.js.map": "/ascend_marketing/static/js/453.32becc55.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e237c775.css",
+    "static/js/main.f306a8aa.js"
+  ]
+}
